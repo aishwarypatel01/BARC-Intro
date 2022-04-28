@@ -1,0 +1,126 @@
+/* Navbar */
+header {
+    padding: 10px 20px;
+    padding-right: 25px;
+  }
+  
+  .nav__links ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    transform: translateX(100%);
+    transition: all 0.3s;
+  }
+  
+  .topNav.menuOpen ul {
+    transform: translateX(0%);
+  }
+  
+  .nav__links ul li:first-of-type {
+    margin-top: 133px;
+  }
+  
+  .nav__links ul li {
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .navbar__mob {
+    display: block;
+    z-index: 11;
+  }
+  
+  .navbar__mob .btn {
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .navbar__mob .btn img {
+    width: 30px;
+  }
+  
+  .navbar__mob .btn-menuClose {
+    display: none;
+  }
+  
+  .topNav.menuOpen .btn-menuOpen {
+    display: none;
+  }
+  
+  .topNav.menuOpen .btn-menuClose {
+    display: flex;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  
+  .nav__right {
+    display: none;
+  }
+  
+  .nav__link--email {
+    display: flex;
+  }
+  
+  .nav__link--email a {
+    color: #fa571c;
+  }
+  
+  /* Section Profile */
+  .sectionProfile .container {
+    padding: 80px 20px;
+    flex-direction: column;
+  }
+  
+  .sectionProfile__left,
+  .sectionProfile__right {
+    width: 100%;
+  }
+  
+  .sectionProfile__left img {
+    width: 280px;
+  }
+  
+  .sectionProfile__right {
+    margin-top: 80px;
+  }
+  
+  .sectionProfile__desc,
+  .sectionProfile__infos p {
+    text-align: center;
+  }
+  
+  .sectionClasses .container {
+    padding: 0 20px;
+  }
+  
+  .sectionClasses__lecture {
+    height: 190px;
+    width: 32%;
+    cursor: pointer;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.103);
+    transition: all 0.3s;
+    background: rgb(255, 255, 255);
+  }
+  
+  .sectionClasses__lecture h3,
+  .sectionClasses__lecture p {
+    text-align: center;
+  }
+  
+  .sectionClasses__lecture h3 {
+    margin-bottom: 18px;
+  }
+  
