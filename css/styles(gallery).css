@@ -216,6 +216,16 @@ header {
     box-shadow: 0 0.7rem 0.7rem 0 rgba(0, 0, 0, 0.646);
 }
 
+
+.img{
+  transition: transform 0.3s;
+
+}
+
+.img:hover{
+  transform: scale(1.25);
+}
+
 footer {
   padding: 15px 0;
   background: #000;
