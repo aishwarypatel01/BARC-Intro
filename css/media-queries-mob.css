@@ -1,0 +1,53 @@
+.nav__links .nav__link--email a {
+    color: #fa571c;
+    text-align: center;
+  }
+  
+  .sectionQuotes {
+    padding: 60px 20px;
+  }
+  
+  .sectionQuotes__title,
+  .sectionClasses__title {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 28px;
+  }
+  
+  .sectionQuotes__quotes {
+    width: 100%;
+  }
+  
+  .sectionClasses__title {
+    text-align: center;
+    display: block;
+  }
+  
+  .sectionClasses__title::before {
+    left: 50%;
+    transform: translate(-50%);
+    height: 2px;
+    bottom: -5px;
+  }
+  
+  .sectionClasses__lecture {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .sectionClasses__lecture:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    padding: 15px;
+  }
+  
+  footer span:nth-of-type(1) {
+    display: none;
+  }
+  
+  footer span:nth-of-type(2) {
+    display: block;
+  }
+  
